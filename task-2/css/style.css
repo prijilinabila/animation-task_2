@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    position: relative;
+    width: 160px;
+    height: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+    border: solid 1px;
+}
+#bg-img1{
+    position: absolute;
+    top: 35px;
+    right: -2px;
+    transform: rotateY(90deg);
+    transform-origin:right ;    
+    opacity: 0;
+}
+
+#bg-img2{
+    position: absolute;
+    bottom: 0;
+    left:-2px;
+    opacity: 0;
+    transform: rotateY(90deg);
+    transform-origin:left ;
+}
+
+#logo{
+    left: 68px;
+    top: 17px;
+    position: absolute;
+    opacity: 0;
+
+}
+#text{
+    position: absolute;
+   top: 93px;
+
+}
+
+#copy{
+    position: absolute;
+    font-size: 20px;
+    left: 50px;
+    transform: rotateX(90deg);
+    transform-origin:top;
+    color: #fff;
+    opacity: 0;
+
+}
+#copy1{
+    position: absolute;
+    top: 28px;
+    left: -122px;
+    white-space: nowrap;
+color: rgb(216, 88, 42);
+    font-size: 15px;
+    opacity: 0;
+}
+
+#copy2{
+    position: absolute;
+    font-size: 20px;
+    top: 53px;
+    left: 158px;
+    color: #fff;
+    opacity: 0;
+
+}
+
+
+#copy3{
+    position: absolute;
+    top: 51px;
+    left: 46px;
+    opacity: 0;
+
+}
+
+.copy3-1{
+    position: absolute;
+    white-space: nowrap;
+    left: -27px;
+    color: #fff;
+    top: 14px;
+}
+
+.copy3-2{
+    top: 35px;
+    left: -18px;
+    white-space: nowrap;
+    color: #fff;
+    position: absolute;
+
+
+}
+.copy3-3{
+    position: absolute;
+    color: #fff;
+    top: 56px;
+    left: 41px;
+
+
+}
+
+#circle{
+    position: absolute;
+    top: 314px;
+    left: 56px;
+    opacity: 0;
+
+}
+#button{
+    position: absolute;
+    bottom: 55px;
+    right: 17px;
+    opacity: 0;
+
+}
+#site{
+    position: absolute;
+    bottom: 46px;
+    right: 20px;
+    opacity: 0;
+    color: #fff;
+    font-size: 17px;
+
+
+}
